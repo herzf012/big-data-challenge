@@ -26,3 +26,9 @@ CREATE TABLE vine_table (
   total_votes INTEGER,
   vine TEXT
 );
+
+-- View tables
+select * from review_id_table;
+select * from products;
+select * from customers;
+select * from vine_table;
